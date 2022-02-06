@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #20232A;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+
+  background: url('./assets/images/background-elipse-botton.svg') bottom no-repeat, url('./assets/images/background-elipse-right-top.svg') no-repeat top right, url('./assets/images/background-elipse-left-top.svg') no-repeat top left #080808;
 }
 
 button {
@@ -15,5 +16,5 @@ button {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }

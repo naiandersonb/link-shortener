@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FiLink } from 'react-icons/fi';
 
+import logo from '../../assets/images/logo.svg';
 import Menu from '../../components/Menu';
 import LinkItem from '../../components/LinkItem';
 
@@ -39,15 +40,14 @@ function Home() {
 
       <div className="logo">
         <h1>
-          {/* ⚡️ */}
-          Link<span>Shrt.</span>
+          <img src={logo} alt="linkShrt. logo" />
+          LinkShrt.
         </h1>
-        <span>Cole seu link para encurtar 👇</span>
       </div>
 
       <div className="area-input">
         <div>
-          <FiLink/>
+          <FiLink size={20} />
           <input 
             type="text"
             placeholder='Cole seu link aqui...'

@@ -1,18 +1,48 @@
 .menu {
+    width: 80%;
     position: absolute;
     top: 20px;
     right: 10%;
-    font-weight: bold;
+    font-weight: 400;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu-links {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+.github-icon {
+    color: #fff;
+    transition: .4s ease;
+}
+
+.link-about {
+    transition: .4s ease;
+}
+
+.github-icon:hover,
+.link-about:hover {
+    color: #676BE6;
+}
+
 .menu-item {
-    background-color: #D9E4F6;
-    color: #20232A;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 700;
 
     padding: 12px 24px;
-    border-radius: 4px;
+    border-radius: 50px;
+
+    transition: .4s ease;
+}
+
+.menu-item:hover {
+    background-color: #fff;
+    color: #000;
 }

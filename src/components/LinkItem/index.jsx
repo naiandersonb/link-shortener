@@ -1,4 +1,4 @@
-import { FiX, FiCopy  } from 'react-icons/fi';
+import { FiXCircle, FiCopy  } from 'react-icons/fi';
 
 import './link-item.css';
 
@@ -18,7 +18,7 @@ function LinkItem({ closeModal, content }) {
                 <h2>Link encurtado</h2>
 
                 <button onClick={closeModal}>
-                    <FiX size={28} color='#000' />
+                    <FiXCircle size={28} color='#fff' />
                 </button>
             </div>
             
@@ -28,7 +28,7 @@ function LinkItem({ closeModal, content }) {
 
             <button className='modal-link' onClick={copyLink}>
                 {content.link}
-                <FiCopy size={20} color='#fff' />
+                <FiCopy size={20} color='#000' />
             </button>
 
         </div>

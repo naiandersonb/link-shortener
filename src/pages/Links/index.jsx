@@ -47,8 +47,8 @@ function Links() {
     <div className='links-container'>
 
       <div className="links-header">
-        <Link to='/'>
-          <FiArrowLeft size={38} color='#fff' />
+        <Link to='/' className='back-home'>
+          <FiArrowLeft size={24} /> Pagina inicial
         </Link>
         <h1>Meus links</h1>
       </div>
@@ -67,7 +67,7 @@ function Links() {
             </button>
 
             <button className='link-delete' onClick={() => handleDelete(link.id)}>
-              <FiTrash2 size={24} color='#EC8D95' />
+              <FiTrash2 size={24} color='#FF007A' />
             </button>
           </div>
 
@@ -79,6 +79,7 @@ function Links() {
             content={data}
           />
         )}
+
 
     </div>
   );

@@ -1,14 +1,36 @@
 .links-container {
     max-width: 700px;
+    height: 100vh;
     margin: 80px auto 0;
 
 }
 
 .links-header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 14px;
     margin-bottom: 24px;
+}
+
+.back-home {
+    opacity: .5;
+    transition: .4s ease;
+
+    position: absolute;
+    top: 32px;
+    left: 10%;
+    
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.back-home:hover {
+    opacity: 1;
+    color: #676BE6;
 }
 
 .links-header h1 {
@@ -36,19 +58,23 @@
 .link {
     min-width: 80%;
     width: 100%;
-    height: 48px;
+    height: 79px;
     padding: 0 16px;
-    
-    border: 0;
-    background-color: #353B49;
     color: #fff;
+
+    background: #1212127c;
+    backdrop-filter: blur(22px);
+    padding: 22px;
+
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
     
     display: flex;
     align-items: center;
     gap: 8px;
     
     font-size: 18px;
-    border-radius: 4px;
+    font-weight: 400;
 
     white-space: nowrap;
     overflow: hidden;
@@ -56,8 +82,16 @@
 }
 
 .link-delete {
-    background: transparent;
+    min-width: 60px;
+    min-height: 60px;
+    background: #121212;
+    padding: 10px;
+    border-radius: 50px;
     border: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .empty-text {
