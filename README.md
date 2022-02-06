@@ -1,8 +1,8 @@
-## Sobre o projeto
+## About the project
 
-LinkShrt. é um encurtador de link que interage com a api oficial do [bitly](https://dev.bitly.com/).
+LinkShrt. is a link shortener that interacts with the [bitly](https://dev.bitly.com/) api.
 
-Esse projeto foi desenvolvido durante a semana React JS, promovida pelo canal do [Sujeito Programador](https://www.youtube.com/c/Sujeitoprogramador), mas com o design  modificado por mim.
+This project was developed during React JS week, promoted by the [Subject Programmer channel](https://www.youtube.com/c/Sujeitoprogramador), but with the design modified by me.
 
 ## Screenshots
 
@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido durante a semana React JS, promovida pelo canal do
 
 ![](./src/assets/images/404.png)
 
-[Demo]()
+[Demo](https://linkshrtt.netlify.app/)
 
 ## Getting Started 
 - clone this repository
