@@ -21,7 +21,7 @@ This project was developed during React JS week, promoted by the [Subject Progra
 
 - In the project directory, you can run:
     
-    `npm install or npm i`
+    `npm install | npm i`
 
     `npm start`
 
