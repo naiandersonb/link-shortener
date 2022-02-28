@@ -20,6 +20,8 @@ This project was developed during React JS week, promoted by the [Subject Progra
     `git clone https://github.com/naiandersonb/link-shortener.git`
 
 - In the project directory, you can run:
+    
+    `npm install or npm i`
 
     `npm start`
 
